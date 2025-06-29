@@ -13,6 +13,9 @@ stages:
     displayName: 'Build job'
     pool:
       name: SecureAgents
+      demands:
+      - npm
+      
 
     variables:
       wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
