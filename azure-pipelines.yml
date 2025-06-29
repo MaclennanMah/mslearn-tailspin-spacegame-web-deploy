@@ -26,7 +26,7 @@ stages:
     - task: NodeTool@0
       displayName: 'Install Node.js'
       inputs:
-        versionSpec: '13.14.0'
+        versionSpec: '12.13.0'
 
     - task: UseDotNet@2
       displayName: 'Use .NET SDK $(dotnetSdkVersion)'
