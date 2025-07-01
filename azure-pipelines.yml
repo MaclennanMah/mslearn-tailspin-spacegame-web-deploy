@@ -13,9 +13,6 @@ stages:
     displayName: 'Build job'
     pool:
       name: SecureAgents
-      vmImage: 'ubuntu-22.04'
-      demands:
-      - npm
       
 
     variables:
